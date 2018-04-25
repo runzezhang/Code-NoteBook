@@ -1,3 +1,5 @@
+//import java.util.Arrays;使用sort()方法对Java数组进行排序，及如何使用 binarySearch() 方法来查找数组中的元素, 这边我们定义了 printArray() 方法来打印数组
+
 import java.util.Arrays;
 
 public class Array_SearchSort {

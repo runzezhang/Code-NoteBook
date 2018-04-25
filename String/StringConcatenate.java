@@ -1,3 +1,4 @@
+//通过 "+" 操作符和StringBuffer.append() 方法来连接字符串，并比较其性能
 public class StringConcatenate {
     public static void main(String[] args){
         long startTime = System.currentTimeMillis();

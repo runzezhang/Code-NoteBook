@@ -1,3 +1,4 @@
+//使用了 regionMatches() 方法测试两个字符串区域是否相等
 public class String_RegionMatch {
     public static void main(String[] args){
         String first_str = "Welcome to Google";

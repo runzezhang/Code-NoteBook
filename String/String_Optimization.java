@@ -1,3 +1,4 @@
+//String.intern() 方法来优化字符串
 public class String_Optimization {
     public static void main(String[] args){
         String variables[] = new String[50000];

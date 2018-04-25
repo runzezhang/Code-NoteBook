@@ -1,3 +1,4 @@
+//通过循环输出数组
 public class Array_Output {
     public static void main(String[] args){
         String[] greeting = new String[3];

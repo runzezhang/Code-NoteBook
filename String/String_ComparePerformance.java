@@ -1,3 +1,4 @@
+//通过两种方式创建字符串，并测试其性能
 public class String_ComparePerformance {
     public static void main(String[] args){
         long startTime = System.currentTimeMillis();

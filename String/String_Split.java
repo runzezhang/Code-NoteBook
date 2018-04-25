@@ -1,3 +1,4 @@
+//split(string) 方法通过指定分隔符将字符串分割为数组
 public class String_Split {
     public static void main(String args[]){
 

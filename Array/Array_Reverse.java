@@ -1,3 +1,4 @@
+//import java.util.ArrayList;使用 Collections.reverse(ArrayList) 将数组进行反转
 import java.util.ArrayList;
 import java.util.Collections;
 

@@ -1,3 +1,4 @@
+//import java.util.Locale;通过 format() 方法来格式化字符串，还可以指定地区来格式化
 import java.util.Locale;
 
 public class StringFormat {

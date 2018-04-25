@@ -1,3 +1,5 @@
+//通过字符串函数 substring() 函数来删除字符串中的一个字符，我们将功能封装在 removeCharAt 函数中
+
 public class Remove_Char {
     public static void main(String args[]) {
         String str = "this is Java";

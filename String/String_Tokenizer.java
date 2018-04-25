@@ -1,3 +1,5 @@
+//使用 StringTokennizer 设置不同分隔符来分隔字符串，默认的分隔符是：空格、制表符（\t）、换行符(\n）、回车符（\r）
+
 import java.util.StringTokenizer;
 
 public class String_Tokenizer {

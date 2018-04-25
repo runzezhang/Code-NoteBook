@@ -1,3 +1,4 @@
+//使用sort()方法对Java数组进行排序，及如何使用 insertElement () 方法向数组插入元素, 这边我们定义了 printArray() 方法来打印数组
 import java.util.Arrays;
 
 public class Array_InsertElements {
