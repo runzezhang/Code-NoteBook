@@ -1,5 +1,5 @@
 import java.util.ArrayList;
-
+//removeAll () 方法来计算两个数组的差集
 public class Array_Join {
     public static void main(String[] args)  {
         ArrayList objArray = new ArrayList();

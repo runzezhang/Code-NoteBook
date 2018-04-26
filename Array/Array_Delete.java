@@ -1,5 +1,5 @@
 import java.util.ArrayList;
-
+//以下实例演示了如何
 public class Array_Delete {
     public static void main(String[] args)  {
         ArrayList<String> objArray = new ArrayList<String>();

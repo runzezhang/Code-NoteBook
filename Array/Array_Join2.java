@@ -1,5 +1,5 @@
 import java.util.ArrayList;
-
+//如何使用 retainAll () 方法来计算两个数组的交集
 public class Array_Join2 {
     public static void main(String[] args)  {
         ArrayList objArray = new ArrayList();

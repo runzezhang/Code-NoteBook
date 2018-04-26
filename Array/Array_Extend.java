@@ -1,3 +1,4 @@
+//在数组初始化后对数组进行扩容
 public class Array_Extend {
     public static void main(String[] args) {
         String[] names = new String[] { "A", "B", "C" };

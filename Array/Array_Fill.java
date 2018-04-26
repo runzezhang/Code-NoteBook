@@ -1,5 +1,5 @@
 import java.util.Arrays;
-
+//通过 Java Util 类的 Arrays.fill(arrayname,value) 方法和Arrays.fill(arrayname ,starting index ,ending index ,value) 方法向数组中填充元素
 public class Array_Fill {
     public static void main(String args[]) {
 //        以下实例我们通过 Java Util 类的 Arrays.fill(arrayname,value) 方法和Arrays.fill(arrayname ,starting index ,ending index ,value) 方法向数组中填充元素：

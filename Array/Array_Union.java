@@ -1,6 +1,6 @@
 import java.util.HashSet;
 import java.util.Set;
-
+//如何使用 union ()方法来计算两个数组的并集
 public class Array_Union {
     public static void main(String[] args) throws Exception {
         String[] arr1 = { "1", "2", "3" };

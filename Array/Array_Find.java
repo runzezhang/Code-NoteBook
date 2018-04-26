@@ -1,5 +1,5 @@
 import java.util.ArrayList;
-
+//使用 contains () 方法来查找数组中的指定元素
 public class Array_Find {
     public static void main(String[] args)  {
         ArrayList<String> objArray = new ArrayList<String>();
