@@ -10,3 +10,6 @@
 3. Postorder left right root
 
 Stack and Non-Recursion Function Remember
+
+
+isalnum() 用来判断该字符串是否是字母数字
