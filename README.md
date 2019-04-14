@@ -25,6 +25,11 @@ Now most my noted algorithm problems are based on [LintCode Python3](LintCode/Py
 - 14 First Position of Target
 - 141 Sqrt(x)
 - 183 Wood Cut
+- 447 Search in a big sorted array
+- 428 Pow(x, n)
+- 140 Fast Power *** recursion or binary earch
+- 62 Search in Rotated Sorted Array
+
 
 ### Algorithm Type
 #### Math
@@ -34,11 +39,15 @@ Now most my noted algorithm problems are based on [LintCode Python3](LintCode/Py
 - 845 Greatest Common Divisor
 - 977 Base 7
 - 366 Fibnacci
+- 428 Pow(x, n)
 #### Sort
 - 56 Two Sum
 - 463 Sort Integers
 #### Search: Binary Tree Traversal
 - 1126 Merge Two Binary Trees
+
+#### Search: Divided and Conquer
+- 428 Pow(x, n)
 #### None Recursion
 - 366 Fibonacci
 
@@ -68,4 +77,5 @@ Now most my noted algorithm problems are based on [LintCode Python3](LintCode/Py
 - 632 Binary Tree Max Node
 
 
+### Tags
 
