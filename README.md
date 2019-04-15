@@ -15,6 +15,7 @@ Now most my noted algorithm problems are based on [LintCode Python3](LintCode/Py
 - 13 Implement strStr()
 - 415 Valid Palindrome
 - 200 Longest Palindromic Substring
+- 891 Valid Palindrome II
 #### Binary Research 二分法
 - 458 Last Position of Target
 - 460 Find K Closest Elements 二分法加双指针
@@ -29,7 +30,8 @@ Now most my noted algorithm problems are based on [LintCode Python3](LintCode/Py
 - 428 Pow(x, n)
 - 140 Fast Power *** recursion or binary earch
 - 62 Search in Rotated Sorted Array
-
+#### Two Pointers 双指针
+- 521 Remove Duplicate Numbers in Array
 
 ### Algorithm Type
 #### Math
