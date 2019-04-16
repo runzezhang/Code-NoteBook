@@ -32,7 +32,8 @@ Now most my noted algorithm problems are based on [LintCode Python3](LintCode/Py
 - 62 Search in Rotated Sorted Array
 #### Two Pointers 双指针
 - 521 Remove Duplicate Numbers in Array
-
+- 604 Window Sum
+- 610 Two Sum - Difference equals to target
 ### Algorithm Type
 #### Math
 - 141 Sqrt(x)
