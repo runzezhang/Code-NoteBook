@@ -28,12 +28,16 @@ Now most my noted algorithm problems are based on [LintCode Python3](LintCode/Py
 - 183 Wood Cut
 - 447 Search in a big sorted array
 - 428 Pow(x, n)
-- 140 Fast Power *** recursion or binary earch
+- 140 Fast Power ***!!! recursion or binary earch
 - 62 Search in Rotated Sorted Array
 #### Two Pointers 双指针
 - 521 Remove Duplicate Numbers in Array
 - 604 Window Sum
-- 610 Two Sum - Difference equals to target
+- 610 Two Sum - Difference equals to target ***!!! 枚举，Lambda, 同向指针
+- 228 Middle of Linked List
+- 102 Linked List Cycle
+- 103 Linked List Cycle II ***!!! Just Remember 
+
 ### Algorithm Type
 #### Math
 - 141 Sqrt(x)
