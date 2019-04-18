@@ -59,6 +59,9 @@ Now most my noted algorithm problems are based on [LintCode Python3](LintCode/Py
 - 366 Fibonacci
 
 ### Data Structure
+#### String
+- 408 Add Binary ***!!!
+- 417 Valid Number ***!!! 状态机解答 ^ __ ^
 #### Linear: Matrix
 - 1170 Reshape the Matrix
 #### Linear: Hash Table
