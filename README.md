@@ -50,6 +50,7 @@ Now most my noted algorithm problems are based on [LintCode Python3](LintCode/Py
 #### Sort
 - 56 Two Sum
 - 463 Sort Integers
+- 464 Sort Integers II 快排，归并等常用排序
 #### Search: Binary Tree Traversal
 - 1126 Merge Two Binary Trees
 
@@ -62,6 +63,7 @@ Now most my noted algorithm problems are based on [LintCode Python3](LintCode/Py
 #### String
 - 408 Add Binary ***!!!
 - 417 Valid Number ***!!! 状态机解答 ^ __ ^
+- 420 Count and Say
 #### Linear: Matrix
 - 1170 Reshape the Matrix
 #### Linear: Hash Table
