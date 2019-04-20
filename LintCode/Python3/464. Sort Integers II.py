@@ -14,6 +14,7 @@
 # Input: [2, 3, 1], 
 # Output: [1, 2, 3].
 
+# Quick Sort
 class Solution:
     """
     @param A: an integer array
@@ -44,3 +45,57 @@ class Solution:
                 right -= 1 
         self.quick_sort(A, start, right)
         self.quick_sort(A, left, end)
+
+# Merge Sort 
+class Solution:
+    """
+    @param A: an integer array
+    @return: nothing
+    """
+    def sortIntegers2(self, A):
+        # write your code here
+        # This tmp should have len(A) value before, it is important!
+        tmp = [0] * len(A)
+        self.merge_sort(A, 0, len(A) - 1, tmp)
+        
+    def merge_sort(self, A, start, end, tmp):
+        if start >= end:
+            return
+        
+        left, right = start, end 
+        mid = start + (end - start) // 2 
+        
+        self.merge_sort(A, start, mid, tmp)
+        self.merge_sort(A, mid + 1, end, tmp)
+        self.merge(A, start, mid, end, tmp)
+        
+    def merge(self, A, start, mid, end, tmp):
+        left = start
+        right = mid + 1 
+        index = start 
+        
+        while left <= mid and right <= end:
+            if A[left] < A[right]:
+                tmp[index] = A[left]
+                left += 1 
+                index += 1 
+            else:
+                tmp[index] = A[right]
+                right += 1 
+                index += 1
+        # print(index)
+        # print(left)
+        # print(right)
+        # print(end)
+        while left <= mid:
+            tmp[index] = A[left]
+            left += 1 
+            index += 1
+        while right <= end:
+            tmp[index] = A[right]
+            right += 1 
+            index += 1
+        
+        for i in range(start, end + 1):
+            A[i] = tmp[i]
+        # print(A)
