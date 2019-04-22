@@ -41,6 +41,7 @@ Now most my noted algorithm problems are based on [LintCode Python3](LintCode/Py
 - 148 Sort Colors 三指针算法
 - 607 Two Sum III - Data structure design
 - 539 Move Zeroes
+- 608 Two Sum II - Input array is sorted
 ### Algorithm Type
 #### Math
 - 141 Sqrt(x)
