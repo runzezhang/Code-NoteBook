@@ -36,7 +36,9 @@ Now most my noted algorithm problems are based on [LintCode Python3](LintCode/Py
 - 610 Two Sum - Difference equals to target ***!!! 枚举，Lambda, 同向指针
 - 228 Middle of Linked List
 - 102 Linked List Cycle
-- 103 Linked List Cycle II ***!!! Just Remember 
+- 103 Linked List Cycle II ***!!! Just Remember
+- 5 Kth Largest Element 快速选择排序
+- 148 Sort Colors 三指针算法
 
 ### Algorithm Type
 #### Math
