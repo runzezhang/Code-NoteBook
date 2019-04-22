@@ -40,7 +40,7 @@ Now most my noted algorithm problems are based on [LintCode Python3](LintCode/Py
 - 5 Kth Largest Element 快速选择排序
 - 148 Sort Colors 三指针算法
 - 607 Two Sum III - Data structure design
-
+- 539 Move Zeroes
 ### Algorithm Type
 #### Math
 - 141 Sqrt(x)
