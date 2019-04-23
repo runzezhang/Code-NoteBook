@@ -30,7 +30,7 @@ Now most my noted algorithm problems are based on [LintCode Python3](LintCode/Py
 - 428 Pow(x, n)
 - 140 Fast Power ***!!! recursion or binary earch
 - 62 Search in Rotated Sorted Array
-#### Two Pointers 双指针
+#### Two Pointers 双指针与排序
 - 521 Remove Duplicate Numbers in Array
 - 604 Window Sum
 - 610 Two Sum - Difference equals to target ***!!! 枚举，Lambda, 同向指针
@@ -42,6 +42,12 @@ Now most my noted algorithm problems are based on [LintCode Python3](LintCode/Py
 - 607 Two Sum III - Data structure design
 - 539 Move Zeroes
 - 608 Two Sum II - Input array is sorted
+- 228 Middle of Linked List
+- 464 Sort Integers II ***!!! 多方法
+- 143 Sort Colors II ***!!! 同时参考答案解法
+- 57 3Sum ***!!! 不熟练
+- 31 Partition Array
+- 56 two sum
 ### Algorithm Type
 #### Math
 - 141 Sqrt(x)
