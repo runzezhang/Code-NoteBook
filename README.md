@@ -48,6 +48,9 @@ Now most my noted algorithm problems are based on [LintCode Python3](LintCode/Py
 - 57 3Sum ***!!! 不熟练
 - 31 Partition Array
 - 56 two sum
+
+#### 
+- 127 Topological Sorting ***!!!阅读全文并背诵：）
 ### Algorithm Type
 #### Math
 - 141 Sqrt(x)
