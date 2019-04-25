@@ -13,3 +13,5 @@ Stack and Non-Recursion Function Remember
 
 
 isalnum() 用来判断该字符串是否是字母数字
+
+使用collections.deque([root])的时候，记住root需要加上[]进行传入
