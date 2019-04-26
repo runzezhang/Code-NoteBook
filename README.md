@@ -53,6 +53,10 @@ Now most my noted algorithm problems are based on [LintCode Python3](LintCode/Py
 - 127 Topological Sorting ***!!!阅读全文并背诵：）
 - 615 Course Schedule
 - 616 Course Schedule II
+- 433 Number of Islands
+- 69 Binary Tree Level Order Traversal
+- 611 Knight Shortest Path
+- 137 Clone Graph
 
 
 ### Algorithm Type
