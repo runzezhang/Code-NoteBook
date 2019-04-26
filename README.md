@@ -49,8 +49,12 @@ Now most my noted algorithm problems are based on [LintCode Python3](LintCode/Py
 - 31 Partition Array
 - 56 two sum
 
-#### 
+#### BFS和拓扑排序
 - 127 Topological Sorting ***!!!阅读全文并背诵：）
+- 615 Course Schedule
+- 616 Course Schedule II
+
+
 ### Algorithm Type
 #### Math
 - 141 Sqrt(x)
