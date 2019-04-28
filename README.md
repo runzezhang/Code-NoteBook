@@ -63,6 +63,7 @@ Now most my noted algorithm problems are based on [LintCode Python3](LintCode/Py
 - 66 Binary Tree Preorder Traversal 
 - 67 Binary Tree Inorder Traversal
 - 68 Binary Tree Postorder Traversal
+- 93 Balanced Binary Tree
 
 
 ### Algorithm Type
