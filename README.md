@@ -58,6 +58,12 @@ Now most my noted algorithm problems are based on [LintCode Python3](LintCode/Py
 - 611 Knight Shortest Path
 - 137 Clone Graph
 
+#### 二叉树和基于树的DFS
+- 97 Maximum Depth of Binary Tree
+- 66 Binary Tree Preorder Traversal 
+- 67 Binary Tree Inorder Traversal
+- 68 Binary Tree Postorder Traversal
+
 
 ### Algorithm Type
 #### Math
