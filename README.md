@@ -57,6 +57,7 @@ Now most my noted algorithm problems are based on [LintCode Python3](LintCode/Py
 - 69 Binary Tree Level Order Traversal
 - 611 Knight Shortest Path
 - 137 Clone Graph
+- 605 Sequence Reconstruction ***!!! 反复练习
 
 #### 二叉树和基于树的DFS
 - 97 Maximum Depth of Binary Tree
