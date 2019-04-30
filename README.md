@@ -59,6 +59,7 @@ Now most my noted algorithm problems are based on [LintCode Python3](LintCode/Py
 - 137 Clone Graph
 - 605 Sequence Reconstruction ***!!! 反复练习
 - 7 Serialize and Deserialize Binary Tree ***!!! 复习反序列化
+- 120 Word Ladder ***!!! 反复练习
 
 #### 二叉树和基于树的DFS
 - 97 Maximum Depth of Binary Tree
@@ -66,6 +67,7 @@ Now most my noted algorithm problems are based on [LintCode Python3](LintCode/Py
 - 67 Binary Tree Inorder Traversal
 - 68 Binary Tree Postorder Traversal
 - 93 Balanced Binary Tree
+- 95 Validate Binary Search Tree ***!!! 多种方法，反复练习DFS几种二叉树遍历写法
 
 
 ### Algorithm Type
