@@ -69,6 +69,7 @@ Now most my noted algorithm problems are based on [LintCode Python3](LintCode/Py
 - 93 Balanced Binary Tree
 - 95 Validate Binary Search Tree ***!!! 多种方法，反复练习DFS几种二叉树遍历写法
 - 596 Minimum Subtree
+- 480 Binary Tree Paths
 
 ### Algorithm Type
 #### Math
