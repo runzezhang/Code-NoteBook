@@ -70,6 +70,9 @@ Now most my noted algorithm problems are based on [LintCode Python3](LintCode/Py
 - 95 Validate Binary Search Tree ***!!! 多种方法，反复练习DFS几种二叉树遍历写法
 - 596 Minimum Subtree
 - 480 Binary Tree Paths
+- 453 Flatten Binary Tree to Linked List ***!!! 分治法和遍历法 D&Q  || traversal  Recursion 递归操作
+- 902 Kth Smallest Element in a BST ***!!! 反复练习
+
 
 ### Algorithm Type
 #### Math
