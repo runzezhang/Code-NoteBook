@@ -74,6 +74,8 @@ Now most my noted algorithm problems are based on [LintCode Python3](LintCode/Py
 - 902 Kth Smallest Element in a BST ***!!! 反复练习
 - 900 Closest Binary Search Tree Value
 - 901 Closest Binary Search Tree Value II ***!!! 反复练习 很难理解
+- 578 Lowest Common Ancestor III ***!!! 反复练习 很难理解
+
 
 
 
