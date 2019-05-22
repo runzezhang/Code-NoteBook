@@ -79,6 +79,10 @@ Now most my noted algorithm problems are based on [LintCode Python3](LintCode/Py
 #### 隐式图
 - 17 Subsets 
 - 680 Split String
+- 425 Letter Combinations of a Phone Number
+- 135 Combination Sum
+- 153 Combination Sum II
+
 
 
 
