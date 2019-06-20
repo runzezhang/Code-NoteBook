@@ -87,7 +87,10 @@ Now most my noted algorithm problems are based on [LintCode Python3](LintCode/Py
 - 829 Word Pattern II (Not Done)
 - 121 Word Ladder II (Not Done)
 - 15 Permutations 递归的时候变量都保存在栈里，result里面存的是l_output的地址。但是，当递归函数运行结束，l_output就被pop掉了
-
+### 哈希表与堆
+- 224 Implement Three Stacks by Single Array (Not Done)
+- 494 Implement Stack by Two Queues （Just fllow demo)
+- 495 Implement Stack （Just fllow demo)
 
 
 
