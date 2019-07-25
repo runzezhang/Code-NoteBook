@@ -1,17 +1,52 @@
-# Contents
-- LeetCode
-  - [Python3](LeetCode/Python)
-  - [Java](LeetCode/Java)
-- LintCode
-  - [Python3](LintCode/Python3)
-- [Java Basic](JAVA-Basic/)
-- [Algorithm Brief Notes](Algorithm-Brief-Notes/)
+Welcome to check my [Code Notebook](https://github.com/runzezhang/Code-Notebook), most of them are from my [Lintcode](https://www.lintcode.com/user/DataLeoZ) by using Python3.
+<!-- TOC -->
 
-Welcome to check my [Data Structure and Algorithm Notebook](https://github.com/runzezhang/Data-Structure-and-Algorithm-Notebook), most of them are from my [Lintcode account](https://www.lintcode.com/user/DataLeoZ) by using Python3.
-# Check List
+- [LintCode](#lintcode)
+  - [Data Structure](#data-structure)
+    - [Linear](#linear)
+      - [Arrary](#arrary)
+      - [Martrix](#martrix)
+      - [Stack](#stack)
+      - [Queue/Deque](#queuedeque)
+      - [Hash Table](#hash-table)
+      - [Linked List](#linked-list)
+    - [Tree](#tree)
+      - [Binary Tree](#binary-tree)
+      - [Binary Search Tree](#binary-search-tree)
+      - [Heap](#heap)
+  - [Algorithm:](#algorithm)
+    - [Math](#math)
+    - [Search](#search)
+      - [Breadth-first Search](#breadth-first-search)
+      - [Depth-first Search](#depth-first-search)
+      - [Recusion](#recusion)
+      - [Non Recursion](#non-recursion)
+      - [Divide and Conquer](#divide-and-conquer)
+      - [Binary Tree Traversal](#binary-tree-traversal)
+      - [Backtracking](#backtracking)
+    - [Sort](#sort)
+      - [Sort](#sort-1)
+      - [Quick Sort](#quick-sort)
+      - [Merge Sort](#merge-sort)
+    - [DP](#dp)
+    - [Other](#other)
+      - [String](#string)
+      - [Greedy](#greedy)
+      - [Bit Manipulation](#bit-manipulation)
+  - [Course](#course)
+      - [Basic](#basic)
+      - [BFS](#bfs)
+      - [Binary Search](#binary-search)
+      - [Binary Tree D&C Traverse](#binary-tree-dc-traverse)
+      - [Two Pointers](#two-pointers)
+      - [Implicit Graph DFS](#implicit-graph-dfs)
+    - [Hash&Heap](#hashheap)
+
+<!-- /TOC -->
+# LintCode
 ## Data Structure
 ### Linear
-#### 1. Arrary
+#### Arrary
 1. [6. Merge Two Sorted Arrays](https://www.lintcode.com/problem/merge-two-sorted-arrays/description) [<b>[Solution]<b>]()
 2. [14. First Position of Target](https://www.lintcode.com/problem/first-position-of-target/description) [<b>[Solution]<b>]()
 3. [31. Partition Array](https://www.lintcode.com/problem/partition-array/description) [<b>[Solution]<b>]()
@@ -47,17 +82,17 @@ Welcome to check my [Data Structure and Algorithm Notebook](https://github.com/r
 
 
 
-#### 2. Martrix
+#### Martrix
 1. [1170. Reshape the Matrix](https://www.lintcode.com/problem/reshape-the-matrix/) [<b>[Solution]<b>]()
 
-#### 3. Stack
+#### Stack
 1. [40. Implement Queue by Two Stacks](https://www.lintcode.com/problem/implement-queue-by-two-stacks/) [<b>[Solution]<b>]()
 2. [224. Implement Three Stacks by Single Array](https://www.lintcode.com/problem/implement-three-stacks-by-single-array/) [<b>[Solution]<b>]()
 3. [494. Implement Stack by Two Queues](https://www.lintcode.com/problem/implement-stack-by-two-queues/) [<b>[Solution]<b>]()
 4. [495. Implement Stack](https://www.lintcode.com/problem/implement-stack/) [<b>[Solution]<b>]()
 5. [901. Closest Binary Search Tree Value II](https://www.lintcode.com/problem/closest-binary-search-tree-value-ii/) [<b>[Solution]<b>]()
 
-#### 4. Queue/Deque
+#### Queue/Deque
 1. [40. Implement Queue by Two Stacks](https://www.lintcode.com/problem/implement-queue-by-two-stacks/) [<b>[Solution]<b>]()
 2. [69. Binary Tree Level Order Traversal](https://www.lintcode.com/problem/binary-tree-level-order-traversal/) [<b>[Solution]<b>]()
 3. [494. Implement Stack by Two Queues](https://www.lintcode.com/problem/implement-stack-by-two-queues/) [<b>[Solution]<b>]()
@@ -65,7 +100,7 @@ Welcome to check my [Data Structure and Algorithm Notebook](https://github.com/r
 5. [955. Implement Queue by Circular Array](https://www.lintcode.com/problem/implement-queue-by-circular-array/) [<b>[Solution]<b>]()
 
 
-#### 5. Hash Table
+#### Hash Table
 1. [56. Two Sum](https://www.lintcode.com/problem/two-sum/) [<b>[Solution]<b>]() [<b>[Review]<b>](https://dataleoz.com/lintcode-two-sum/)
 2. [128. Hash Function](https://www.lintcode.com/problem/hash-function/) [<b>[Solution]<b>]()
 3. [129. Rehashing](https://www.lintcode.com/problem/rehashing/) [<b>[Solution]<b>]()
@@ -83,7 +118,7 @@ Welcome to check my [Data Structure and Algorithm Notebook](https://github.com/r
 15. [1320. Contains Duplicate](https://www.lintcode.com/problem/contains-duplicate/) [<b>[Solution]<b>]()
 
 
-#### 6. Linked List
+#### Linked List
 1. [102. Linked List Cycle](https://www.lintcode.com/problem/linked-list-cycle/) [<b>[Solution]<b>](https://github.com/runzezhang/Data-Structure-and-Algorithm-Notebook/blob/master/LintCode/Python3/102.%20Linked%20List%20Cycle.py?1563865580095)
 2. [103. Linked List Cycle II](https://www.lintcode.com/problem/linked-list-cycle-ii/) [<b>[Solution]<b>](https://github.com/runzezhang/Data-Structure-and-Algorithm-Notebook/blob/master/LintCode/Python3/103.%20Linked%20List%20Cycle%20II.py?1563865598609)
 3. [104. Merge K Sorted Lists](https://www.lintcode.com/problem/merge-k-sorted-lists/) [<b>[Solution]<b>]()
@@ -94,7 +129,7 @@ Welcome to check my [Data Structure and Algorithm Notebook](https://github.com/r
 
 
 ### Tree
-#### 1. Binary Tree
+#### Binary Tree
 1. [7. Serialize and Deserialize Binary Tree](https://www.lintcode.com/problem/serialize-and-deserialize-binary-tree/) [<b>[Solution]<b>]()
 2. [66. Binary Tree Preorder Traversal](https://www.lintcode.com/problem/binary-tree-preorder-traversal) [<b>[Solution]<b>]()
 3. [67. Binary Tree Inorder Traversal](https://www.lintcode.com/problem/binary-tree-inorder-traversal) [<b>[Solution]<b>]()
@@ -111,14 +146,14 @@ Welcome to check my [Data Structure and Algorithm Notebook](https://github.com/r
 14. [1033. Minimum Difference Between BST Nodes](https://www.lintcode.com/problem/minimum-difference-between-bst-nodes/) [<b>[Solution]<b>]()
 
 
-#### 2. Binary Search Tree
+#### Binary Search Tree
 1. [86. Binary Search Tree Iterator](https://www.lintcode.com/problem/binary-search-tree-iterator/) [<b>[Solution]<b>]()
 2. [95. Validate Binary Search Tree](https://www.lintcode.com/problem/validate-binary-search-tree/) [<b>[Solution]<b>]()
 3. [900. Closest Binary Search Tree Value](https://www.lintcode.com/problem/closest-binary-search-tree-value/) [<b>[Solution]<b>]()
 4. [901. Closest Binary Search Tree Value II](https://www.lintcode.com/problem/closest-binary-search-tree-value-ii/) [<b>[Solution]<b>]()
 5. [902. Kth Smallest Element in a BST](https://www.lintcode.com/problem/kth-smallest-element-in-a-bst/) [<b>[Solution]<b>]()
 
-#### 3. Heap
+#### Heap
 1. [104. Merge K Sorted Lists](https://www.lintcode.com/problem/merge-k-sorted-lists/) [<b>[Solution]<b>]()
 2. [130. Heapify](https://www.lintcode.com/problem/heapify/) [<b>[Solution]<b>]()
 3. [544. Top k Largest Numbers](https://www.lintcode.com/problem/top-k-largest-numbers/) [<b>[Solution]<b>]()
@@ -136,7 +171,7 @@ Welcome to check my [Data Structure and Algorithm Notebook](https://github.com/r
 
 
 ### Search
-#### 1. Breadth-first Search
+#### Breadth-first Search
 1. [69. Binary Tree Level Order Traversal](https://www.lintcode.com/problem/binary-tree-level-order-traversal/) [<b>[Solution]<b>]()
 2. [120. Word Ladder](https://www.lintcode.com/problem/word-ladder/) [<b>[Solution]<b>]()
 3. [121. Word Ladder II](https://www.lintcode.com/problem/word-ladder-ii/) [<b>[Solution]<b>]()
@@ -148,7 +183,7 @@ Welcome to check my [Data Structure and Algorithm Notebook](https://github.com/r
 9. [615. Course Schedule](https://www.lintcode.com/problem/course-schedule/) [<b>[Solution]<b>]()
 10. [616. Course Schedule II](https://www.lintcode.com/problem/course-schedule-ii/) [<b>[Solution]<b>]()
 
-#### 2. Depth-first Search
+#### Depth-first Search
 1. [33. N-Queens](https://www.lintcode.com/problem/n-queens/) [<b>[Solution]<b>]() [<b>[Review]<b>](https://dataleoz.com/lintcode-n-queens/)
 2. [121. Word Ladder II](https://www.lintcode.com/problem/word-ladder-ii/) [<b>[Solution]<b>]()
 3. [127. Topological Sorting](https://www.lintcode.com/problem/topological-sorting/) [<b>[Solution]<b>]()
@@ -158,7 +193,7 @@ Welcome to check my [Data Structure and Algorithm Notebook](https://github.com/r
 7. [596. Minimum Subtree](https://www.lintcode.com/problem/minimum-subtree/) [<b>[Solution]<b>]()
 8. [680. Split String](https://www.lintcode.com/problem/split-string/) [<b>[Solution]<b>]()
 
-#### 3. Recusion
+#### Recusion
 1. [15. Permutations](https://www.lintcode.com/problem/permutations/description) [<b>[Solution]<b>]() [<b>[Review]<b>](https://dataleoz.com/lintcode-permutations/)
 2. [17. Subsets](https://www.lintcode.com/problem/subsets/) [<b>[Solution]<b>]()
 3. [18. Subsets II](https://www.lintcode.com/problem/subsets-ii/) [<b>[Solution]<b>]()
@@ -171,12 +206,12 @@ Welcome to check my [Data Structure and Algorithm Notebook](https://github.com/r
 10. [97. Maximum Depth of Binary Tree](https://www.lintcode.com/problem/maximum-depth-of-binary-tree/) [<b>[Solution]<b>]()
 11. [425. Letter Combinations of a Phone Number](https://www.lintcode.com/problem/letter-combinations-of-a-phone-number/) [<b>[Solution]<b>]()
 
-#### 4. Non Recursion
+#### Non Recursion
 1. [66. Binary Tree Preorder Traversal](https://www.lintcode.com/problem/binary-tree-preorder-traversal) [<b>[Solution]<b>]()
 2. [86. Binary Search Tree Iterator](https://www.lintcode.com/problem/binary-search-tree-iterator/) [<b>[Solution]<b>]()
 3. [366. Fibonacci](https://www.lintcode.com/problem/fibonacci/) [<b>[Solution]<b>]()
 
-#### 5. Divide and Conquer
+#### Divide and Conquer
 1. [93. Balanced Binary Tree](https://www.lintcode.com/problem/balanced-binary-tree/) [<b>[Solution]<b>]()
 2. [95. Validate Binary Search Tree](https://www.lintcode.com/problem/validate-binary-search-tree/) [<b>[Solution]<b>]()
 3. [97. Maximum Depth of Binary Tree](https://www.lintcode.com/problem/maximum-depth-of-binary-tree/) [<b>[Solution]<b>]()
@@ -184,7 +219,7 @@ Welcome to check my [Data Structure and Algorithm Notebook](https://github.com/r
 5. [140. Fast Power](https://www.lintcode.com/problem/fast-power/) [<b>[Solution]<b>]()
 6. [428. Pow(x, n)](https://www.lintcode.com/problem/powx-n/) [<b>[Solution]<b>]()
 
-#### 6. Binary Tree Traversal
+#### Binary Tree Traversal
 1. [66. Binary Tree Preorder Traversal](https://www.lintcode.com/problem/binary-tree-preorder-traversal) [<b>[Solution]<b>]()
 2. [67. Binary Tree Inorder Traversal](https://www.lintcode.com/problem/binary-tree-inorder-traversal/) [<b>[Solution]<b>]()
 3. [68. Binary Tree Postorder Traversal](https://www.lintcode.com/problem/binary-tree-postorder-traversal/description) [<b>[Solution]<b>]()
@@ -192,7 +227,7 @@ Welcome to check my [Data Structure and Algorithm Notebook](https://github.com/r
 5. [480. Binary Tree Paths](https://www.lintcode.com/problem/binary-tree-paths/) [<b>[Solution]<b>]()
 6. [1126. Merge Two Binary Trees](https://www.lintcode.com/problem/merge-two-binary-trees/) [<b>[Solution]<b>]()
 
-#### 7. Backtracking
+#### Backtracking
 1. [18. Subsets II](https://www.lintcode.com/problem/subsets-ii/) [<b>[Solution]<b>]()
 2. [121. Word Ladder II](https://www.lintcode.com/problem/word-ladder-ii/) [<b>[Solution]<b>]()
 3. [135. Combination Sum](https://www.lintcode.com/problem/combination-sum/) [<b>[Solution]<b>]()
@@ -202,7 +237,7 @@ Welcome to check my [Data Structure and Algorithm Notebook](https://github.com/r
 7. [829. Word Pattern II](https://www.lintcode.com/problem/word-pattern-ii/) [<b>[Solution]<b>]()
 
 ### Sort
-#### 1. Sort
+#### Sort
 1. [5. Kth Largest Element](https://www.lintcode.com/problem/kth-largest-element/) [<b>[Solution]<b>]()
 2. [31. Partition Array](https://www.lintcode.com/problem/partition-array/) [<b>[Solution]<b>]()
 3. [56. Two Sum](https://www.lintcode.com/problem/two-sum/) [<b>[Solution]<b>]() [<b>[Review]<b>](https://dataleoz.com/lintcode-two-sum/)
@@ -213,12 +248,12 @@ Welcome to check my [Data Structure and Algorithm Notebook](https://github.com/r
 8. [521. Remove Duplicate Numbers in Array](https://www.lintcode.com/problem/remove-duplicate-numbers-in-array/) [<b>[Solution]<b>]()
 
 
-#### 2. Quick Sort
+#### Quick Sort
 1. [5. Kth Largest Element](https://www.lintcode.com/problem/kth-largest-element/) [<b>[Solution]<b>]()
 2. [464. Sort Integers II](https://www.lintcode.com/problem/sort-integers-ii/) [<b>[Solution]<b>]()
 
 
-#### 3. Merge Sort
+#### Merge Sort
 1. [464. Sort Integers II](https://www.lintcode.com/problem/sort-integers-ii/) [<b>[Solution]<b>]()
 
 
@@ -227,7 +262,7 @@ Welcome to check my [Data Structure and Algorithm Notebook](https://github.com/r
 2. [115. Unique Paths II](https://www.lintcode.com/problem/unique-paths-ii/) [<b>[Solution]<b>]()
 
 ### Other
-#### 1. String
+#### String
 1. [8. Rotate String](https://www.lintcode.com/problem/rotate-string/) [<b>[Solution]<b>]()
 2. [13. Implement strStr()](https://www.lintcode.com/problem/implement-strstr/) [<b>[Solution]<b>]()
 3. [53. Reverse Words in a String](https://www.lintcode.com/problem/reverse-words-in-a-string/) [<b>[Solution]<b>]()
@@ -267,22 +302,36 @@ Welcome to check my [Data Structure and Algorithm Notebook](https://github.com/r
 37. [1638. Least Substring](https://www.lintcode.com/problem/least-substring)
 38. [1713. Unique Email Addresses](https://www.lintcode.com/problem/unique-email-addresses)
 
-#### 2. Greedy
+#### Greedy
 1. [41. Maximum Subarray](https://www.lintcode.com/problem/maximum-subarray/description) [<b>[Solution]<b>]()
 2. [1163. Distribute Candies](https://www.lintcode.com/problem/distribute-candies) [<b>[Solution]<b>]()
 
-### 3. Bit Manipulation
+#### Bit Manipulation
 1. [1. A + B Problem](https://www.lintcode.com/problem/a-b-problem/) [<b>[Solution]<b>]() [<b>[Solution]<b>](https://github.com/runzezhang/Data-Structure-and-Algorithm-Notebook/blob/master/LintCode/Python3/1.%20A%20%2B%20B%20Problem.py?1563864927089)
 
 
-### Course
-#### String & Palindrome 字符串/回文串
+## Course
+#### Basic
 - 627 Longest Palindrome
 - 13 Implement strStr()
 - 415 Valid Palindrome
 - 200 Longest Palindromic Substring
 - 891 Valid Palindrome II
-#### Binary Research 二分法
+
+#### BFS
+- 127 Topological Sorting ***!!!阅读全文并背诵：）
+- 615 Course Schedule
+- 616 Course Schedule II
+- 433 Number of Islands
+- 69 Binary Tree Level Order Traversal
+- 611 Knight Shortest Path
+- 137 Clone Graph
+- 605 Sequence Reconstruction ***!!! 反复练习
+- 7 Serialize and Deserialize Binary Tree ***!!! 复习反序列化
+- 120 Word Ladder ***!!! 反复练习
+
+
+#### Binary Search
 - 458 Last Position of Target
 - 460 Find K Closest Elements 二分法加双指针
 - 585 Maximum Number in Mountain Sequence
@@ -296,7 +345,24 @@ Welcome to check my [Data Structure and Algorithm Notebook](https://github.com/r
 - 428 Pow(x, n)
 - 140 Fast Power ***!!! recursion or binary earch
 - 62 Search in Rotated Sorted Array
-#### Two Pointers 双指针与排序
+
+#### Binary Tree D&C Traverse
+- 97 Maximum Depth of Binary Tree
+- 66 Binary Tree Preorder Traversal
+- 67 Binary Tree Inorder Traversal
+- 68 Binary Tree Postorder Traversal
+- 93 Balanced Binary Tree
+- 95 Validate Binary Search Tree ***!!! 多种方法，反复练习DFS几种二叉树遍历写法
+- 596 Minimum Subtree
+- 480 Binary Tree Paths
+- 453 Flatten Binary Tree to Linked List ***!!! 分治法和遍历法 D&Q  || traversal  Recursion 递归操作
+- 902 Kth Smallest Element in a BST ***!!! 反复练习
+- 900 Closest Binary Search Tree Value
+- 901 Closest Binary Search Tree Value II ***!!! 反复练习 很难理解
+- 578 Lowest Common Ancestor III ***!!! 反复练习 很难理解
+- 86 Binary Search Tree Iterator ***!!! 反复练习 复习二叉查找树以及遍历的相关规则
+
+#### Two Pointers
 - 521 Remove Duplicate Numbers in Array
 - 604 Window Sum
 - 610 Two Sum - Difference equals to target ***!!! 枚举，Lambda, 同向指针
@@ -315,34 +381,8 @@ Welcome to check my [Data Structure and Algorithm Notebook](https://github.com/r
 - 31 Partition Array
 - 56 two sum
 
-#### BFS和拓扑排序
-- 127 Topological Sorting ***!!!阅读全文并背诵：）
-- 615 Course Schedule
-- 616 Course Schedule II
-- 433 Number of Islands
-- 69 Binary Tree Level Order Traversal
-- 611 Knight Shortest Path
-- 137 Clone Graph
-- 605 Sequence Reconstruction ***!!! 反复练习
-- 7 Serialize and Deserialize Binary Tree ***!!! 复习反序列化
-- 120 Word Ladder ***!!! 反复练习
 
-#### 二叉树和基于树的DFS
-- 97 Maximum Depth of Binary Tree
-- 66 Binary Tree Preorder Traversal 
-- 67 Binary Tree Inorder Traversal
-- 68 Binary Tree Postorder Traversal
-- 93 Balanced Binary Tree
-- 95 Validate Binary Search Tree ***!!! 多种方法，反复练习DFS几种二叉树遍历写法
-- 596 Minimum Subtree
-- 480 Binary Tree Paths
-- 453 Flatten Binary Tree to Linked List ***!!! 分治法和遍历法 D&Q  || traversal  Recursion 递归操作
-- 902 Kth Smallest Element in a BST ***!!! 反复练习
-- 900 Closest Binary Search Tree Value
-- 901 Closest Binary Search Tree Value II ***!!! 反复练习 很难理解
-- 578 Lowest Common Ancestor III ***!!! 反复练习 很难理解
-- 86 Binary Search Tree Iterator ***!!! 反复练习 复习二叉查找树以及遍历的相关规则
-#### 隐式图
+#### Implicit Graph DFS
 - 17 Subsets
 - 18 Subsets II
 - 680 Split String
@@ -353,7 +393,9 @@ Welcome to check my [Data Structure and Algorithm Notebook](https://github.com/r
 - 829 Word Pattern II (Not Done)
 - 121 Word Ladder II (Not Done)
 - 15 Permutations 递归的时候变量都保存在栈里，result里面存的是l_output的地址。但是，当递归函数运行结束，l_output就被pop掉了
-### 哈希表与堆
+
+
+### Hash&Heap
 - 224 Implement Three Stacks by Single Array (Not Done)
 - 494 Implement Stack by Two Queues （Just fllow demo)
 - 495 Implement Stack （Just fllow demo)
