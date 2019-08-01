@@ -1,10 +1,17 @@
 # Introduction
 This is a [Code Notebook](https://github.com/runzezhang/Code-Notebook),through this [blog](https://dataleoz.com/code-notebook/) to check my code review.
-# Category
-- [String](https://dataleoz.com/code-review-string/)
+## Category
+- [String](https://github.com/runzezhang/Code-NoteBook/blob/master/string.md) [<b>[Review]<b>](https://dataleoz.com/code-review-string/)
+- [Array](https://github.com/runzezhang/Code-NoteBook/blob/master/array.md)
+- [Hash](https://github.com/runzezhang/Code-NoteBook/blob/master/hash.md)
+- [Binary Tree](https://github.com/runzezhang/Code-NoteBook/blob/master/binary-tree.md)
+- [BFS](https://github.com/runzezhang/Code-NoteBook/blob/master/bfs.md)
+- [DFS](https://github.com/runzezhang/Code-NoteBook/blob/master/dfs.md)
+- [Sort](https://github.com/runzezhang/Code-NoteBook/blob/master/sort.md)
+- [Jiuzhang Course](https://github.com/runzezhang/Code-NoteBook/blob/master/jz-course.md)
+- [Other](https://github.com/runzezhang/Code-NoteBook/blob/master/unknown.md)
 
-
-# Problem List
+## Problem List
 | Problem                                                                                                                                                           | Solution                                                                                                                                                 | Review                                                                                                       | Level |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|-------|
 | [1. A + B Problem](https://www.lintcode.com/problem/a-b-problem/)                                                                                                 |                                                                                                                                                          |                                                                                                              |       |

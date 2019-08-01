@@ -37,21 +37,7 @@
 
 
 ### Tree
-#### Binary Tree
-1. [7. Serialize and Deserialize Binary Tree](https://www.lintcode.com/problem/serialize-and-deserialize-binary-tree/) [<b>[Solution]<b>]()
-2. [66. Binary Tree Preorder Traversal](https://www.lintcode.com/problem/binary-tree-preorder-traversal) [<b>[Solution]<b>]()
-3. [67. Binary Tree Inorder Traversal](https://www.lintcode.com/problem/binary-tree-inorder-traversal) [<b>[Solution]<b>]()
-4. [68. Binary Tree Postorder Traversal](https://www.lintcode.com/problem/binary-tree-postorder-traversal) [<b>[Solution]<b>]()
-5. [69. Binary Tree Level Order Traversal](https://www.lintcode.com/problem/binary-tree-level-order-traversal/) [<b>[Solution]<b>]()
-6. [86. Binary Search Tree Iterator](https://www.lintcode.com/problem/binary-search-tree-iterator/) [<b>[Solution]<b>]()
-7. [95. Validate Binary Search Tree](https://www.lintcode.com/problem/validate-binary-search-tree/) [<b>[Solution]<b>]()
-8. [97. Maximum Depth of Binary Tree](https://www.lintcode.com/problem/maximum-depth-of-binary-tree/) [<b>[Solution]<b>]()
-9. [453. Flatten Binary Tree to Linked List](https://www.lintcode.com/problem/flatten-binary-tree-to-linked-list/) [<b>[Solution]<b>]()
-10. [480. Binary Tree Paths](https://www.lintcode.com/problem/binary-tree-paths/) [<b>[Solution]<b>]()
-11. [578. Lowest Common Ancestor III](https://www.lintcode.com/problem/lowest-common-ancestor-iii/) [<b>[Solution]<b>]()
-12. [596. Minimum Subtree](https://www.lintcode.com/problem/minimum-subtree/) [<b>[Solution]<b>]()
-13. [632. Binary Tree Maximum Node](https://www.lintcode.com/problem/binary-tree-maximum-node/) [<b>[Solution]<b>]()
-14. [1033. Minimum Difference Between BST Nodes](https://www.lintcode.com/problem/minimum-difference-between-bst-nodes/) [<b>[Solution]<b>]()
+
 
 
 #### Binary Search Tree
@@ -79,27 +65,9 @@
 
 
 ### Search
-#### Breadth-first Search
-1. [69. Binary Tree Level Order Traversal](https://www.lintcode.com/problem/binary-tree-level-order-traversal/) [<b>[Solution]<b>]()
-2. [120. Word Ladder](https://www.lintcode.com/problem/word-ladder/) [<b>[Solution]<b>]()
-3. [121. Word Ladder II](https://www.lintcode.com/problem/word-ladder-ii/) [<b>[Solution]<b>]()
-4. [127. Topological Sorting](https://www.lintcode.com/problem/topological-sorting/) [<b>[Solution]<b>]()
-5. [137. Clone Graph](https://www.lintcode.com/problem/clone-graph/) [<b>[Solution]<b>]()
-6. [433. Number of Islands](https://www.lintcode.com/problem/number-of-islands/) [<b>[Solution]<b>]() 
-7. [605. Sequence Reconstruction](https://www.lintcode.com/problem/sequence-reconstruction/) [<b>[Solution]<b>]()
-8. [611. Knight Shortest Path](https://www.lintcode.com/problem/knight-shortest-path/) [<b>[Solution]<b>]()
-9. [615. Course Schedule](https://www.lintcode.com/problem/course-schedule/) [<b>[Solution]<b>]()
-10. [616. Course Schedule II](https://www.lintcode.com/problem/course-schedule-ii/) [<b>[Solution]<b>]()
 
-#### Depth-first Search
-1. [33. N-Queens](https://www.lintcode.com/problem/n-queens/) [<b>[Solution]<b>]() [<b>[Review]<b>](https://dataleoz.com/lintcode-n-queens/)
-2. [121. Word Ladder II](https://www.lintcode.com/problem/word-ladder-ii/) [<b>[Solution]<b>]()
-3. [127. Topological Sorting](https://www.lintcode.com/problem/topological-sorting/) [<b>[Solution]<b>]()
-4. [137. Clone Graph](https://www.lintcode.com/problem/clone-graph/) [<b>[Solution]<b>]()
-5. [153. Combination Sum II](https://www.lintcode.com/problem/combination-sum-ii/) [<b>[Solution]<b>]()
-6. [453. Flatten Binary Tree to Linked List](https://www.lintcode.com/problem/flatten-binary-tree-to-linked-list/) [<b>[Solution]<b>]()
-7. [596. Minimum Subtree](https://www.lintcode.com/problem/minimum-subtree/) [<b>[Solution]<b>]()
-8. [680. Split String](https://www.lintcode.com/problem/split-string/) [<b>[Solution]<b>]()
+
+
 
 #### Recusion
 1. [15. Permutations](https://www.lintcode.com/problem/permutations/description) [<b>[Solution]<b>]() [<b>[Review]<b>](https://dataleoz.com/lintcode-permutations/)
@@ -144,25 +112,6 @@
 6. [680. Split String](https://www.lintcode.com/problem/split-string/) [<b>[Solution]<b>]()
 7. [829. Word Pattern II](https://www.lintcode.com/problem/word-pattern-ii/) [<b>[Solution]<b>]()
 
-### Sort
-#### Sort
-1. [5. Kth Largest Element](https://www.lintcode.com/problem/kth-largest-element/) [<b>[Solution]<b>]()
-2. [31. Partition Array](https://www.lintcode.com/problem/partition-array/) [<b>[Solution]<b>]()
-3. [56. Two Sum](https://www.lintcode.com/problem/two-sum/) [<b>[Solution]<b>]() [<b>[Review]<b>](https://dataleoz.com/lintcode-two-sum/)
-4. [143. Sort Colors II](https://www.lintcode.com/problem/sort-colors-ii) [<b>[Solution]<b>]()
-5. [148. Sort Colors](https://www.lintcode.com/problem/sort-colors/) [<b>[Solution]<b>]()
-6. [463. Sort Integers](https://www.lintcode.com/problem/sort-integers/) [<b>[Solution]<b>]()
-7. [464. Sort Integers II](https://www.lintcode.com/problem/sort-integers-ii/) [<b>[Solution]<b>]()
-8. [521. Remove Duplicate Numbers in Array](https://www.lintcode.com/problem/remove-duplicate-numbers-in-array/) [<b>[Solution]<b>]()
-
-
-#### Quick Sort
-1. [5. Kth Largest Element](https://www.lintcode.com/problem/kth-largest-element/) [<b>[Solution]<b>]()
-2. [464. Sort Integers II](https://www.lintcode.com/problem/sort-integers-ii/) [<b>[Solution]<b>]()
-
-
-#### Merge Sort
-1. [464. Sort Integers II](https://www.lintcode.com/problem/sort-integers-ii/) [<b>[Solution]<b>]()
 
 
 ### DP
