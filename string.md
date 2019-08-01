@@ -1,13 +1,38 @@
-#### String
-1. [8. Rotate String](https://www.lintcode.com/problem/rotate-string/) [<b>[Solution]<b>](https://github.com/runzezhang/Code-NoteBook/blob/master/lintcode/0008-rotate-string.py)
-2. [13. Implement strStr()](https://www.lintcode.com/problem/implement-strstr/) [<b>[Solution]<b>](https://github.com/runzezhang/Code-NoteBook/blob/master/lintcode/0013-implement-strstr.py)
-3. [53. Reverse Words in a String](https://www.lintcode.com/problem/reverse-words-in-a-string/) [<b>[Solution]<b>](https://github.com/runzezhang/Code-NoteBook/blob/master/lintcode/0053-reverse-words-in-a-string.py)
-4. [133. Longest Word](https://www.lintcode.com/problem/longest-word/) [<b>[Solution]<b>](https://github.com/runzezhang/Code-NoteBook/blob/master/lintcode/133-longest-word.py)
-5. [146. Lowercase to Uppercase II](https://www.lintcode.com/problem/lowercase-to-uppercase-ii/) [<b>[Solution]<b>](https://github.com/runzezhang/Code-NoteBook/blob/master/lintcode/0146-lowercase-to-uppercase-ii.py)
-6. [157. Unique Characters](https://www.lintcode.com/problem/unique-characters/) [<b>[Solution]<b>](https://github.com/runzezhang/Code-NoteBook/blob/master/lintcode/0157-unique-characters.py)
+# Summary
+字符串类型的题目多以考验语法基础和字符串处理的基本操作为主，同时在日常工作中也有很多贴近实际的作用。
+## Reviews
+### Classic methods:
+- S+S link string itself
+
+### Grammer tips:
+1. split() will split by space(not just one space)
+2. strip() can cut space at head&end 
+3. reversed() will have return, reverse() just reverse itself but no return.
+4. islower(), upper()
+5. ASCII ord('a') -32 = 'A'
+6. ASCII array(127)
+## Problems
+1. [8. Rotate String](https://www.lintcode.com/problem/rotate-string/) [<b>[Solution]<b>](https://github.com/runzezhang/Code-NoteBook/blob/master/lintcode/0008-rotate-string.py)  
+Rotate the char array in place by offset.   
+The rest 'offset' numbers of char will be move to head. So classic method, link two same string and get result start from proper index.   
+Make sure consider the offset more than len(array) first.  
+Space O(n), Time O(n) 
+
+2. [13. Implement strStr()](https://www.lintcode.com/problem/implement-strstr/) [<b>[Solution]<b>](https://github.com/runzezhang/Code-NoteBook/blob/master/lintcode/0013-implement-strstr.py)  
+Find target string in string.  
+Python has target() function, while the normal way to implement is is O($n^2$) time to  find it. KMP / Rabin Karp not considered yet.
+3. [53. Reverse Words in a String](https://www.lintcode.com/problem/reverse-words-in-a-string/) [<b>[Solution]<b>](https://github.com/runzezhang/Code-NoteBook/blob/master/lintcode/0053-reverse-words-in-a-string.py)  
+   Reverse words in sentence.  
+4. [133. Longest Word](https://www.lintcode.com/problem/longest-word/) [<b>[Solution]<b>](https://github.com/runzezhang/Code-NoteBook/blob/master/lintcode/133-longest-word.py)  
+   record a tmp max_length, loop all words, if len(word) > max, update max_length, and empty max_words array, insert this 'new max' word.
+5. [146. Lowercase to Uppercase II](https://www.lintcode.com/problem/lowercase-to-uppercase-ii/) [<b>[Solution]<b>](https://github.com/runzezhang/Code-NoteBook/blob/master/lintcode/0146-lowercase-to-uppercase-ii.py)  
+char convert
+6. [157. Unique Characters](https://www.lintcode.com/problem/unique-characters/) [<b>[Solution]<b>](https://github.com/runzezhang/Code-NoteBook/blob/master/lintcode/0157-unique-characters.py)  
+with extra data structure, use set to comapre. Or build a ASCII array(127 all, but use 129 instead). Loop check wether the code has been used.
+
 7. [158. Valid Anagram](https://www.lintcode.com/problem/valid-anagram/) [<b>[Solution]<b>](https://github.com/runzezhang/Code-NoteBook/blob/master/lintcode/0158-valid-anagram.py)
 8. [200. Longest Palindromic Substring](https://www.lintcode.com/problem/longest-palindromic-substring/) [<b>[Solution]<b>](https://github.com/runzezhang/Code-NoteBook/blob/master/lintcode/0200-longest-palindromic-substring.py)
-9. [209. First Unique Character in a String](https://www.lintcode.com/problem/first-unique-character-in-a-string/) [<b>[Solution]<b>](https://github.com/runzezhang/Code-NoteBook/blob/master/lintcode/0209-first-unique-character-in-a-string.py)
+9.  [209. First Unique Character in a String](https://www.lintcode.com/problem/first-unique-character-in-a-string/) [<b>[Solution]<b>](https://github.com/runzezhang/Code-NoteBook/blob/master/lintcode/0209-first-unique-character-in-a-string.py)
 10. [211. String Permutation](https://www.lintcode.com/problem/string-permutation/) [<b>[Solution]<b>](https://github.com/runzezhang/Code-NoteBook/blob/master/lintcode/0211-string-permutation.py)
 11. [212. Space Replacement](https://www.lintcode.com/problem/space-replacement/) [<b>[Solution]<b>](https://github.com/runzezhang/Code-NoteBook/blob/master/lintcode/0212-space-replacement.py)
 12. [241. String to Integer](https://www.lintcode.com/problem/string-to-integer/) [<b>[Solution]<b>](https://github.com/runzezhang/Code-NoteBook/blob/master/lintcode/0241-string-to-integer.py)
