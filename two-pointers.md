@@ -1,0 +1,2 @@
+[415. Valid Palindrome](https://www.lintcode.com/problem/valid-palindrome/) [<b>[Solution]<b>](https://github.com/runzezhang/Code-NoteBook/blob/master/lintcode/0415-valid-palindrome.py)  
+normal way, build a clean string, jungle weather it is a paindrome string, need extra space. O(n) time without extra memory. Need use two pointers method.

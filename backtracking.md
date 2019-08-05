@@ -1,0 +1,1 @@
+1. [425. Letter Combinations of a Phone Number](https://www.lintcode.com/problem/letter-combinations-of-a-phone-number/) [<b>[Solution]<b>](https://github.com/runzezhang/Code-NoteBook/blob/master/lintcode/0425-letter-combinations-of-a-phone-number.py)  
