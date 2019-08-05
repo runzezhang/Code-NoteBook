@@ -73,10 +73,12 @@ Concatenate uncommon char in two strings.[Official answer is better]
 seperate deal nums and upper char, then merge
 25. [891. Valid Palindrome II](https://www.lintcode.com/problem/valid-palindrome-ii/) [<b>[Solution]<b>](https://github.com/runzezhang/Code-NoteBook/blob/master/lintcode/0891-valid-palindrome-ii.py)
 judge palindrome if allows to delete at most one cahr. Two pointers to jundge string, if occur not equal char, jundge delete left or right pointer's char, see weather it can be palindrome.
-26. [914. Flip Game](https://www.lintcode.com/problem/flip-game/) [<b>[Solution]<b>](https://github.com/runzezhang/Code-NoteBook/blob/master/lintcode/0914-flip-game.py)
-27. [1011. Number of Lines To Write String](https://www.lintcode.com/problem/number-of-lines-to-write-string/) [<b>[Solution]<b>](https://github.com/runzezhang/Code-NoteBook/blob/master/lintcode/1011-number-of-lines-to-write-string.py)
-28. [1013. Unique Morse Code Words](https://www.lintcode.com/problem/unique-morse-code-words/) [<b>[Solution]<b>](https://github.com/runzezhang/Code-NoteBook/blob/master/lintcode/1013-unique-morse-code-words.py)
-29. [1079. Count Binary Substrings](https://www.lintcode.com/problem/count-binary-substrings/) [<b>[Solution]<b>](https://github.com/runzezhang/Code-NoteBook/blob/master/lintcode/1079-count-binary-substrings.py)
+26. [914. Flip Game](https://www.lintcode.com/problem/flip-game/) [<b>[Solution]<b>](https://github.com/runzezhang/Code-NoteBook/blob/master/lintcode/0914-flip-game.py)  
+enumerate all possible ++ postion, build string and add them in results.
+27. [1011. Number of Lines To Write String](https://www.lintcode.com/problem/number-of-lines-to-write-string/) [<b>[Solution]<b>](https://github.com/runzezhang/Code-NoteBook/blob/master/lintcode/1011-number-of-lines-to-write-string.py)  store chars in multi lines area. Note if line will exceed 100 units after inout current char, just move it to store in next line.
+28. [1013. Unique Morse Code Words](https://www.lintcode.com/problem/unique-morse-code-words/) [<b>[Solution]<b>](https://github.com/runzezhang/Code-NoteBook/blob/master/lintcode/1013-unique-morse-code-words.py)  
+Convert Each words to morser code, add in set() to see unique counts.
+29. [1079. Count Binary Substrings](https://www.lintcode.com/problem/count-binary-substrings/) [<b>[Solution]<b>](https://github.com/runzezhang/Code-NoteBook/blob/master/lintcode/1079-count-binary-substrings.py)  
 30. [1104. Judge Route Circle](https://www.lintcode.com/problem/judge-route-circle/) [<b>[Solution]<b>](https://github.com/runzezhang/Code-NoteBook/blob/master/lintcode/1104-judge-route-circle.py)
 31. [1173. Reverse Words in a String III](https://www.lintcode.com/problem/reverse-words-in-a-string-iii/) [<b>[Solution]<b>](https://github.com/runzezhang/Code-NoteBook/blob/master/lintcode/1173-reverse-words-in-a-string-iii.py)
 32. [1193. Detect Capital](https://www.lintcode.com/problem/detect-capital/) [<b>[Solution]<b>](https://github.com/runzezhang/Code-NoteBook/blob/master/lintcode/1193-detect-capital.py)
