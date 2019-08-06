@@ -12,6 +12,7 @@
 4. islower(), upper()
 5. ASCII ord('a') -32 = 'A'
 6. ASCII array(127)
+7. A.difference(B)
 ## Problems
 1. [8. Rotate String](https://www.lintcode.com/problem/rotate-string/) [<b>[Solution]<b>](https://github.com/runzezhang/Code-NoteBook/blob/master/lintcode/0008-rotate-string.py)  
 Rotate the char array in place by offset.   
@@ -79,13 +80,28 @@ enumerate all possible ++ postion, build string and add them in results.
 28. [1013. Unique Morse Code Words](https://www.lintcode.com/problem/unique-morse-code-words/) [<b>[Solution]<b>](https://github.com/runzezhang/Code-NoteBook/blob/master/lintcode/1013-unique-morse-code-words.py)  
 Convert Each words to morser code, add in set() to see unique counts.
 29. [1079. Count Binary Substrings](https://www.lintcode.com/problem/count-binary-substrings/) [<b>[Solution]<b>](https://github.com/runzezhang/Code-NoteBook/blob/master/lintcode/1079-count-binary-substrings.py)  
-30. [1104. Judge Route Circle](https://www.lintcode.com/problem/judge-route-circle/) [<b>[Solution]<b>](https://github.com/runzezhang/Code-NoteBook/blob/master/lintcode/1104-judge-route-circle.py)
-31. [1173. Reverse Words in a String III](https://www.lintcode.com/problem/reverse-words-in-a-string-iii/) [<b>[Solution]<b>](https://github.com/runzezhang/Code-NoteBook/blob/master/lintcode/1173-reverse-words-in-a-string-iii.py)
-32. [1193. Detect Capital](https://www.lintcode.com/problem/detect-capital/) [<b>[Solution]<b>](https://github.com/runzezhang/Code-NoteBook/blob/master/lintcode/1193-detect-capital.py)
-33. [1204. Keyboard Row](https://www.lintcode.com/problem/keyboard-row/) [<b>[Solution]<b>](https://github.com/runzezhang/Code-NoteBook/blob/master/lintcode/1204-keyboard-row.py)
-34. [1243. Number of Segments in a String](https://www.lintcode.com/problem/number-of-segments-in-a-string)
-35. [1266. Find the Difference](https://www.lintcode.com/problem/find-the-difference) [<b>[Solution]<b>](https://github.com/runzezhang/Code-NoteBook/blob/master/lintcode/1266-find-the-difference.py)
-36. [1283. Reverse String](https://www.lintcode.com/problem/reverse-string/) [<b>[Solution]<b>](https://github.com/runzezhang/Code-NoteBook/blob/master/lintcode/1283-reverse-string.py)
-37. [1350. Excel Sheet Column Title](https://www.lintcode.com/problem/excel-sheet-column-title/) [<b>[Solution]<b>](https://github.com/runzezhang/Code-NoteBook/blob/master/lintcode/1350-excel-sheet-column-title.py)
-38. [1638. Least Substring](https://www.lintcode.com/problem/least-substring) [<b>[Solution]<b>](https://github.com/runzezhang/Code-NoteBook/blob/master/lintcode/1638-least-substring.py)
-39. [1713. Unique Email Addresses](https://www.lintcode.com/problem/unique-email-addresses) [<b>[Solution]<b>](https://github.com/runzezhang/Code-NoteBook/blob/master/lintcode/1713-unique-email-addresses.py)
+continue binary search. Key point is if find the mid point(01, 10) then continue count when 'i-start<lastcount'. Pay attention to border situation.
+30. [1104. Judge Route Circle](https://www.lintcode.com/problem/judge-route-circle/) [<b>[Solution]<b>](https://github.com/runzezhang/Code-NoteBook/blob/master/lintcode/1104-judge-route-circle.py)  
+Just follow the rule
+31. [1173. Reverse Words in a String III](https://www.lintcode.com/problem/reverse-words-in-a-string-iii/) [<b>[Solution]<b>](https://github.com/runzezhang/Code-NoteBook/blob/master/lintcode/1173-reverse-words-in-a-string-iii.py)  
+Basic string operation
+32. [1193. Detect Capital](https://www.lintcode.com/problem/detect-capital/) [<b>[Solution]<b>](https://github.com/runzezhang/Code-NoteBook/blob/master/lintcode/1193-detect-capital.py)  
+Consider all possible situation.
+33. [1204. Keyboard Row](https://www.lintcode.com/problem/keyboard-row/) [<b>[Solution]<b>](https://github.com/runzezhang/Code-NoteBook/blob/master/lintcode/1204-keyboard-row.py)  
+A.difference(B) can figure this problem
+34. [1243. Number of Segments in a String](https://www.lintcode.com/problem/number-of-segments-in-a-string)  [<b>[Solution]<b>](https://github.com/runzezhang/Code-NoteBook/blob/master/lintcode/1243-number-of-segments-in-a-string.py)
+遍历整个字符串
+一个字符串段落的特征是：
+当前位置的字符不为' '并且(前一个字符为' '或者当前位置是第0位）
+35. [1266. Find the Difference](https://www.lintcode.com/problem/find-the-difference) [<b>[Solution]<b>](https://github.com/runzezhang/Code-NoteBook/blob/master/lintcode/1266-find-the-difference.py)  
+ASCII ord() will be a interesting solution.
+36. [1283. Reverse String](https://www.lintcode.com/problem/reverse-string/) [<b>[Solution]<b>](https://github.com/runzezhang/Code-NoteBook/blob/master/lintcode/1283-reverse-string.py)  
+Basic string operation
+37. [1350. Excel Sheet Column Title](https://www.lintcode.com/problem/excel-sheet-column-title/) [<b>[Solution]<b>](https://github.com/runzezhang/Code-NoteBook/blob/master/lintcode/1350-excel-sheet-column-title.py)  
+[*Star problem in string*] like 26 Decimal system.
+38. [1638. Least Substring](https://www.lintcode.com/problem/least-substring) [<b>[Solution]<b>](https://github.com/runzezhang/Code-NoteBook/blob/master/lintcode/1638-least-substring.py)  
+这道题字符串分段有两种情况
+当前相同字符长度为k，或者字符不匹配
+用for循环更新flag字符和新段子的字符长度
+39. [1713. Unique Email Addresses](https://www.lintcode.com/problem/unique-email-addresses) [<b>[Solution]<b>](https://github.com/runzezhang/Code-NoteBook/blob/master/lintcode/1713-unique-email-addresses.py)  
+Basic string operation
